@@ -3,9 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 const Contact = () => {
     const location = useLocation()
    
-
-const user = location.state.values
-    
+    const user = location.state.values
     return (
       <div >
           <h3> Name: {user.name}</h3>
